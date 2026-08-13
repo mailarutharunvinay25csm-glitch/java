@@ -80,7 +80,7 @@ public class BankAccountManagement {
         CurrentAccount c1 =
                 new CurrentAccount(102, 5000, 3000);
 
-        System.out.println("----- SAVINGS ACCOUNT -----");
+        System.out.println(" SAVINGS ACCOUNT ");
 
         s1.displayDetails();
 
@@ -93,7 +93,7 @@ public class BankAccountManagement {
         System.out.println("Balance after transactions: " + s1.balance);
 
 
-        System.out.println("\n----- CURRENT ACCOUNT -----");
+        System.out.println("\nCURRENT ACCOUNT ");
 
         c1.displayDetails();
 
@@ -104,7 +104,7 @@ public class BankAccountManagement {
         System.out.println("Balance after transactions: " + c1.balance);
 
 
-        System.out.println("\n----- TRANSFER -----");
+        System.out.println("\n TRANSFER ");
 
         s1.transfer(c1, 2000);
 
