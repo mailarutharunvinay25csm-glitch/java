@@ -1,0 +1,9 @@
+class Example18 {
+    public static void main(String[] args) {
+        try {
+            throw new SecurityException("Security violation");
+        } catch (SecurityException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
