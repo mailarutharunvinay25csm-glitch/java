@@ -1,0 +1,16 @@
+class Example9 {
+    static void checkAge(int age) {
+        if (age < 0)
+            throw new IllegalArgumentException("Age cannot be negative");
+
+        System.out.println("Valid age");
+    }
+
+    public static void main(String[] args) {
+        try {
+            checkAge(-10);
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
