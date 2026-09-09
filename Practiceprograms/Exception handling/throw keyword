@@ -1,0 +1,35 @@
+
+
+
+// throw rises the exception and handle using catch block
+public class ExceptionDemo {
+    public static void main(String[] args) {
+        
+    
+    int a=3;
+    int b=0;
+    int array[]=new int[5];
+    String str=null; 
+    try{
+         b=18/a;
+         System.out.println(array[3]);
+         if(b==6)
+    throw new ArithmeticException("it is divisible by a");//acts as constructor
+    }
+    catch(ArithmeticException e){
+
+
+        System.out.println("there is no exception "+e);
+    }
+        
+    catch (Exception e) {
+        System.out.println("exception is "+e);
+
+    }
+    
+
+    System.out.println("hello");
+    System.out.println(b);
+}
+}
+
