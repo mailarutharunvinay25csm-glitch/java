@@ -1,5 +1,5 @@
 abstract class Cricket{
-public  abstract void batting();
+public  abstract void batting();  //abstract method is used when “Every subclass must provide its own implementation of this method.”
 public void bowling(){
     System.out.println("he is bowller");
 }
