@@ -1,11 +1,11 @@
  class StudentInformation{
-private String name;
+private String name;   //if we use private keyword-access with in the same class only(used when we want to hide some details)
 private int rollno;
 private String branch;
-public String getName(){
+public String getName(){  // read/access a private variable from outside the class in a controlled way.
     return name;
 }
-public void setName(String a){
+public void setName(String a){  /set or modify the value of a private variable from outside the class.
     name=a;
 }
 public int getRollno(){
