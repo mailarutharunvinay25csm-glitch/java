@@ -5,7 +5,7 @@ private String branch;
 public String getName(){  // read/access a private variable from outside the class in a controlled way.
     return name;
 }
-public void setName(String a){  /set or modify the value of a private variable from outside the class.
+public void setName(String a){  //set or modify the value of a private variable from outside the class.
     name=a;
 }
 public int getRollno(){
